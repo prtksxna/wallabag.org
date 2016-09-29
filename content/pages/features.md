@@ -7,7 +7,7 @@ sortorder: 20
   </div>
   <div class="col-lg-6">
     <h2>Comfortable reading</h2>
-    wallabag extracts article's content (and only content!) and displays it in a comfortable view.<br />
+    wallabag extracts the article's content (and only content!) and displays it in a comfortable view.<br />
     Moreover, wallabag is responsive: you can read your articles on your smartphone or your tablet.
   </div>
 </div>
@@ -35,8 +35,8 @@ sortorder: 20
 <hr />
 <div class="row">
   <div class="col-lg-6">
-    <h2>Retrieve easily your articles thanks to the filters</h2>
-    wallabag provides a powerful tool to filter your saved articles. It's so easy to look for them  
+    <h2>Retrieve your articles easily thanks to filters</h2>
+    wallabag provides a powerful tool to filter your saved articles. It's so easy to look for them.  
   </div>
   <div class="col-lg-6">
     <img src="/images/features/filters.png" alt="Filters" />
@@ -57,7 +57,7 @@ sortorder: 20
 <div class="row">
   <div class="col-lg-6">
     <h2>Keep your data</h2>
-    All your data belong to you. You can download all your articles in many formats: PDF, ePUB, .mobi, JSON, CSV, txt or HTML. 
+    All your data belongs to you. You can download all your articles in many formats: PDF, ePUB, .mobi, JSON, CSV, txt or HTML. 
   </div>
   <div class="col-lg-6">
     <img src="/images/features/exports.png" alt="Exports" />
