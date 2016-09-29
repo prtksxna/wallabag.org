@@ -7,7 +7,9 @@
     {% else %}
         <meta name="author" content="{{ AUTHOR }}" />
     {% endif %}
-    {% if page.summary %}
+    {% if page.desc %}
+        <meta name="description" content="{{ page.desc }}" />
+    {% elif page.summary %}
         <meta name="description" content="{{ page.summary|striptags|escape }}" />
     {% endif %}
 {% endblock %}
@@ -19,7 +21,11 @@
     <meta property="og:type" content="article"/>
     <meta property="og:title" content="{{ page.title|striptags|escape }}"/>
     <meta property="og:url" content="{{ SITEURL }}/{{ page.url }}"/>
+    {% if page.desc %}
+    <meta property="og:description" content="{{ page.desc }}" />
+    {% elif page.summary %}
     <meta property="og:description" content="{{ page.summary|striptags|escape }}" />
+    {% endif %}
     {% if page.og_image %}
         <meta property="og:image"
               content="{{ SITEURL }}/{{ page.og_image }}"/>
