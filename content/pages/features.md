@@ -7,7 +7,7 @@ sortorder: 20
   </div>
   <div class="col-lg-6">
     <h2>Comfortable reading</h2>
-    wallabag extracts the article's content (and only content!) and displays it in a comfortable view.<br />
+    wallabag extracts the article's content (and only its content!) and displays it in a comfortable view.<br />
     Moreover, wallabag is responsive: you can read your articles on your smartphone or your tablet.
   </div>
 </div>
